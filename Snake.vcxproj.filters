@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="模块">
+      <UniqueIdentifier>{6ee29c79-286b-4450-95e8-fcc115fd15a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="模块\NGF">
+      <UniqueIdentifier>{80d1e2a2-327b-4fb4-84a4-45f539c0f9db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="模块\NGS">
+      <UniqueIdentifier>{ff03d9fd-badd-4634-b391-7743ed20d45f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\module">
+      <UniqueIdentifier>{6d7caef7-47cb-43f7-8f6c-ccfe895a3bfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\macro">
+      <UniqueIdentifier>{b09dacc6-def7-4e49-a8cb-43f1a3033dfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\gamesprite">
+      <UniqueIdentifier>{acea2470-baa2-41cc-9037-967b34611b07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\utils">
+      <UniqueIdentifier>{6d7b56a3-7355-481f-b3b9-8f62debfffb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\geom">
+      <UniqueIdentifier>{6851f500-2056-49ee-bde7-534731fa6a1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\display">
+      <UniqueIdentifier>{384d6fdc-6dc7-4186-b6d9-d114c7bb9838}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\data">
+      <UniqueIdentifier>{4c6c4bb3-4614-48d2-af58-c5337ac82e19}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Include\Snake\Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Module\NGS\NGS_Defined.ixx">
+      <Filter>模块\NGS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Module\NGS\NGS_Module.ixx">
+      <Filter>模块\NGS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Module\NGS\NGS_String.ixx">
+      <Filter>模块\NGS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Module\NGS\NGS_TypeTrait.ixx">
+      <Filter>模块\NGS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Module\NGS\NGS_Version.ixx">
+      <Filter>模块\NGS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Module\NGS\NGS_Bit.ixx">
+      <Filter>模块\NGS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Module\NGS\NGS_Concepts.ixx">
+      <Filter>模块\NGS</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Include\Snake\Snake_DeviceContext.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Snake\Snake_Config_Macro.h">
+      <Filter>头文件\macro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Snake\Snake_Snake.h">
+      <Filter>头文件\gamesprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Snake\Snake_Food.h">
+      <Filter>头文件\gamesprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Snake\Snake_Math.h">
+      <Filter>头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Snake\Snake_Memory.h">
+      <Filter>头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Snake\Snake_Vector.h">
+      <Filter>头文件\geom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Snake\Snake_Rectangle.h">
+      <Filter>头文件\geom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Snake\Snake_DisplayObject.h">
+      <Filter>头文件\display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Snake\Snake_Stage.h">
+      <Filter>头文件\display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Snake\Snake_Bitmap.h">
+      <Filter>头文件\display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Snake\Snake_GameInputer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Snake\Snake_ActionCtrler.h">
+      <Filter>头文件\gamesprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Snake\Snake_Color.h">
+      <Filter>头文件\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Snake\Snake_BitmapData.h">
+      <Filter>头文件\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Snake\Snake_Direct.h">
+      <Filter>头文件\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Snake\Snake_GameMain.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
