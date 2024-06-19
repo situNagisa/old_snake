@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="模块">
+      <UniqueIdentifier>{ac5db290-69e2-4026-ac1f-92fcbe123f15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="模块\Nagisa">
+      <UniqueIdentifier>{07f1cd68-2aef-49fd-9a5f-6ef1f339e0d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="模块\CP">
+      <UniqueIdentifier>{93acd1fe-7a3e-464b-8ee3-34257912a539}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="模块\Hardware">
+      <UniqueIdentifier>{27e05ccf-0604-4824-9a3f-a505f8f04985}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Include\NCP\NCP_Defined_Macro.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Module\NCP\NCP_Concepts.ixx">
+      <Filter>模块</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Module\NCP\NCP_SPI.ixx">
+      <Filter>模块\CP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Module\NCP\NCP_IIC.ixx">
+      <Filter>模块\CP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Module\Nagisa\NGS_Concepts.ixx">
+      <Filter>模块\Nagisa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Module\Nagisa\NGS_Defined.ixx">
+      <Filter>模块\Nagisa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Module\Nagisa\NGS_Import.ixx">
+      <Filter>模块\Nagisa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Module\Nagisa\NGS_String.ixx">
+      <Filter>模块\Nagisa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Module\Nagisa\NGS_TypeTrait.ixx">
+      <Filter>模块\Nagisa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Module\Nagisa\NGS_Version.ixx">
+      <Filter>模块\Nagisa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Module\Nagisa\NGS_Bit.ixx">
+      <Filter>模块\Nagisa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Module\NCP\NCP_Defined.ixx">
+      <Filter>模块</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>

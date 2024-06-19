@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="模块">
+      <UniqueIdentifier>{a0c3c445-32cc-4537-b4e9-1f1a08d6751c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\module">
+      <UniqueIdentifier>{c5f8e43e-0c61-4dd2-8034-bf8b32439115}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Include\N_WIN\N_WIN.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\N_WIN\N_WIN_Library.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\N_WIN\Windows.h">
+      <Filter>头文件\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\N_WIN\APP.h">
+      <Filter>头文件\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\N_WIN\WinEvent.h">
+      <Filter>头文件\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\N_WIN\WinParam.h">
+      <Filter>头文件\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\N_WIN\WinBitmap.h">
+      <Filter>头文件\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\N_WIN\Keyboard.h">
+      <Filter>头文件\module</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Include\N_WIN\DeviceContext.ixx">
+      <Filter>模块</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\N_WIN\Windows.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

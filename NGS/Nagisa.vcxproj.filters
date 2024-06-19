@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="模块">
+      <UniqueIdentifier>{6ee29c79-286b-4450-95e8-fcc115fd15a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\macro">
+      <UniqueIdentifier>{6c0c1a2b-2491-4a54-b3c3-21d0993018a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\module">
+      <UniqueIdentifier>{db9d8b67-487d-4847-a9a2-c6e8f17567d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\实现文件">
+      <UniqueIdentifier>{f0c238db-bb6a-4e4f-a05b-fbd9873320c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\模块编译文件">
+      <UniqueIdentifier>{0deae620-708c-4e9f-accb-0eef0e4ee43d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Module\NGS\NGS_Bit.ixx">
+      <Filter>模块</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Module\NGS\NGS_Concepts.ixx">
+      <Filter>模块</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Module\NGS\NGS_Defined.ixx">
+      <Filter>模块</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Module\NGS\NGS_Module.ixx">
+      <Filter>模块</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Module\NGS\NGS_String.ixx">
+      <Filter>模块</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Module\NGS\NGS_TypeTrait.ixx">
+      <Filter>模块</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Module\NGS\NGS_Version.ixx">
+      <Filter>模块</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\NGS\NGS_Object.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\NGS\NGS_String.cpp">
+      <Filter>源文件\模块编译文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\NGS\NGS_Memory.ixx">
+      <Filter>模块</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Include\NGS\NGS.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\NGS\NGS_Defined.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\NGS\NGS_Object.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\NGS\NGS_Config_Macro.h">
+      <Filter>头文件\macro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\NGS\NGS_Defined_Macro.h">
+      <Filter>头文件\macro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\NGS\NGS_Macro.h">
+      <Filter>头文件\macro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\NGS\NGS_Version_Macro.h">
+      <Filter>头文件\macro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\NGS\NGS_Module_Macro.h">
+      <Filter>头文件\macro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\NGS\NGS_Defined_Module.h">
+      <Filter>头文件\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\NGS\NGS_Object_Module.h">
+      <Filter>头文件\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\NGS\NGS_String_Module.h">
+      <Filter>头文件\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\NGS\NGS_Module.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\NGS\NGS_String.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\NGS\NGS_String.hpp">
+      <Filter>源文件\实现文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\NGS\NGS_Version_Module.h">
+      <Filter>头文件\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\NGS\NGS_Config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\NGS\NGS_Version.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\NGS\NGS_TypeTrait_Module.h">
+      <Filter>头文件\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\NGS\NGS_TypeTrait.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\NGS\NGS_Concepts_Module.h">
+      <Filter>头文件\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\NGS\NGS_Concepts.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\NGS\NGS_Bit_Module.h">
+      <Filter>头文件\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\NGS\NGS_Bit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\NGS\NGS_Memory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\NGS\NGS_Memory_Module.h">
+      <Filter>头文件\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\NGS\NGS_STL_Macro.h">
+      <Filter>头文件\macro</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

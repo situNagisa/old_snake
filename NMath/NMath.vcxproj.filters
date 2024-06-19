@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="模块">
+      <UniqueIdentifier>{a0c3c445-32cc-4537-b4e9-1f1a08d6751c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="模块\NGS">
+      <UniqueIdentifier>{9c60ceb2-8478-49e7-852e-e6ea4e1e207a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\macro">
+      <UniqueIdentifier>{861a24ce-29f4-4df3-9a51-f3e844327844}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\module">
+      <UniqueIdentifier>{a561b29c-d847-40fc-bb05-1abfbed164fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\编译">
+      <UniqueIdentifier>{e3cf9c93-867c-4b8e-8705-90e1d025d92f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\实现">
+      <UniqueIdentifier>{825447b3-7a31-451b-8b2c-6b658bb74578}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Module\NGS\NGS_Defined.ixx">
+      <Filter>模块\NGS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Module\NGS\NGS_Module.ixx">
+      <Filter>模块\NGS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Module\NGS\NGS_String.ixx">
+      <Filter>模块\NGS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Module\NGS\NGS_TypeTrait.ixx">
+      <Filter>模块\NGS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Module\NGS\NGS_Version.ixx">
+      <Filter>模块\NGS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Module\NGS\NGS_Bit.ixx">
+      <Filter>模块\NGS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Module\NGS\NGS_Concepts.ixx">
+      <Filter>模块\NGS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\NMath\Rectangle.cpp">
+      <Filter>源文件\编译</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Include\NMath\Math.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\NMath\Vector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\NMath\Vector_Module.h">
+      <Filter>头文件\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\NMath\Math_Module.h">
+      <Filter>头文件\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\NMath\Rectangle_Module.h">
+      <Filter>头文件\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\NMath\Rectangle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\NMath\Matrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\NMath\Matrix_Module.h">
+      <Filter>头文件\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\NMath\Rotation_Module.h">
+      <Filter>头文件\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\NMath\Rotation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

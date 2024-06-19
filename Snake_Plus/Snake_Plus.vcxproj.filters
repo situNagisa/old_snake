@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="模块">
+      <UniqueIdentifier>{6ee29c79-286b-4450-95e8-fcc115fd15a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\gameSprites">
+      <UniqueIdentifier>{15d0735e-45de-4a5b-a1ee-43cf9ef8ccdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\state">
+      <UniqueIdentifier>{f379a57e-6048-4039-8734-b42c3d667f1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ctrl">
+      <UniqueIdentifier>{2f24addd-5199-4d8e-8054-2efaddbc2744}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\input">
+      <UniqueIdentifier>{0eab3bab-ab95-487e-ac92-4e9a889fa04b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\events">
+      <UniqueIdentifier>{822c424c-1d89-4de1-af34-b34f728eaa59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\data">
+      <UniqueIdentifier>{ff996426-1905-4235-abc2-7c88ea82a00a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\state">
+      <UniqueIdentifier>{a955e73c-e8f4-47d6-9e7f-1f6f379ff4c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ui">
+      <UniqueIdentifier>{7be800d7-8304-431d-99bb-718e104100b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ctrl">
+      <UniqueIdentifier>{94bfb9fc-f680-4a40-a64a-754954d575cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\factory">
+      <UniqueIdentifier>{a67470b6-0a6f-41da-a1f8-4fa7e52092b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\utils">
+      <UniqueIdentifier>{ae3086e2-3e25-4e6c-a68d-8541c3533ddc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\gameSprites">
+      <UniqueIdentifier>{4dc8325f-b3ba-4eae-b6b2-92204dc4a778}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Include\Snake_Plus\Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\Snake_Plus\MenuState.cpp">
+      <Filter>源文件\state</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\Snake_Plus\GameSate.cpp">
+      <Filter>源文件\state</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\Snake_Plus\GameCtrl.cpp">
+      <Filter>源文件\ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\Snake_Plus\GameMainLogic.cpp">
+      <Filter>源文件\ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\Snake_Plus\Food.cpp">
+      <Filter>源文件\gameSprites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\Snake_Plus\SettingState.cpp">
+      <Filter>源文件\state</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Include\Snake_Plus\MainGame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Snake_Plus\Food.h">
+      <Filter>头文件\gameSprites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Snake_Plus\Snake.h">
+      <Filter>头文件\gameSprites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Snake_Plus\GameMainLogic.h">
+      <Filter>头文件\ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Snake_Plus\GameSprite.h">
+      <Filter>头文件\gameSprites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Snake_Plus\GameCtrl.h">
+      <Filter>头文件\ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Snake_Plus\GameSate.h">
+      <Filter>头文件\state</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Snake_Plus\MenuState.h">
+      <Filter>头文件\state</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Snake_Plus\GameConfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Snake_Plus\GameRender.h">
+      <Filter>头文件\ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Snake_Plus\GameInputer.h">
+      <Filter>头文件\input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Snake_Plus\GameEvent.h">
+      <Filter>头文件\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Snake_Plus\GameRunFactory.h">
+      <Filter>头文件\factory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Snake_Plus\GameUpdater.h">
+      <Filter>头文件\ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Snake_Plus\Library.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Snake_Plus\ResrouceFactory.h">
+      <Filter>头文件\factory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Snake_Plus\Font.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Snake_Plus\Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Snake_Plus\SettingState.h">
+      <Filter>头文件\state</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Snake_Plus\InputConfig.h">
+      <Filter>头文件\input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Snake_Plus\TransUI.h">
+      <Filter>头文件\ui</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
